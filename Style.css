@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("background1.img");
+    /* background-color:rgb(43, 2, 2); */
+    color: aqua;
+}
+
+.container {
+    height: 550px;
+    width: 70%;          
+    /* margin: 0 auto;       */
+    margin-left:200px;  
+    margin-top: 20px;
+    background: rgb(127, 206, 252);
+    color:black;
+    padding: 30px;
+    border-radius: 15px;
+    border:3px white;
+    box-shadow: 0 10px 100px rgb(212, 108, 108);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+.logo:hover{
+    color:rgb(241, 7, 167);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-weight: 500;
+    transition:-5s;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: black;
+    border-color: rgb(251, 0, 255);
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.text-box h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-box h3 {
+    margin-top: 10px;
+    color: black;
+}
+
+.text-box p {
+    margin-top: 15px;
+    width: 500px;
+    line-height: 22px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(76, 180, 255);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:rgb(43, 2, 2);
+    transform: scale(1.05);
+}
+
+.icons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.icon img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* background-color:aqua; */
+    padding: 5px;
+    border:2px solid black;
+    box-shadow: 0 5px 10px black;
+}
+.icon:hover{
+    transform: scale(1.05);
+}
+
+/* .image-box img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 4px solid aqua;
+    object-fit: cover;
+    color: aqua;
+} */
+
+.image-box img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 4px solid aqua;
+    object-fit: cover;
+    color: aqua;
+    box-shadow: 0 10px 150px rgb(3, 248, 252);
+}
+.image-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 100px rgb(212, 108, 108);
+}

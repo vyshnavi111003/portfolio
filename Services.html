@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+
+    <style>
+        body{
+            height:100px;
+            background: url("background3.img");
+            padding: 50px;
+            color: white;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial;
+        }
+
+        .container{
+            position: absolute;
+            height: 85%;
+            width: 80%;
+            background: lightskyblue;
+            border-radius: 30px;
+            margin-top: -5px;
+            margin-left: 100px;
+            border:3px solid black;
+            box-shadow: 0 10px 100px rgb(212, 108, 108);
+        }
+
+        header{
+            position: absolute;
+            width: 90%;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .logo{
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        .logo:hover{
+            color:rgb(241, 7, 167);
+        }
+
+        .navbar a{
+            text-decoration: none;
+            color: rgb(20, 20, 20);
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 35px;
+            transition:-5s;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover {
+            color: black;
+            border-color: rgb(251, 0, 255);
+        }
+        .services-section{
+            margin-top: 150px;
+            padding: 40px;
+            color:black;
+        }
+
+        .services-title{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .services-title h2{
+            font-size: 35px;
+            margin-top: -70px;
+            margin-bottom: 50px;
+        }
+        .services-title h2:hover{
+            color:black;
+            transform: scale(1.05);
+        }
+
+        .services-box{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card{
+            background: rgba(37, 149, 153, 0.521);
+            width: 40%;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #000;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 10px 50px rgb(34, 93, 109);
+        }
+
+        .card:hover{
+            transform: scale(1.05);
+            box-shadow:0 10px 50px rgb(212, 108, 108);
+        }
+
+        .card h3{
+            color: black;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .card p{
+            color:black;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <a href="" class="logo">Portfolio</a>
+            <nav class="navbar">
+                <a href="Home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <div class="services-section">
+            <div class="services-title">
+                <h2>My Services</h2>
+                <p></p>
+            </div>
+
+            <div class="services-box">
+
+                <div class="card">
+                    <h3>Web Design</h3>
+                    <p>I create clean and modern webpages using HTML and CSS with simple, attractive layouts.
+                       I also designed a University Management System using UI/UX concepts. It helps manage 
+                       student registration, courses, attendance, and faculty details, and includes separate 
+                       logins for admin, students, and staff.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Responsive Websites</h3>
+                    <p>I design websites that look great on mobile, tablet, and desktop screens using HTML,
+                       CSS, JavaScript, Python, and MySQL. I also created an E-Farming platform where farmers 
+                       can upload their crops and buyers can purchase them directly, helping reduce middlemen 
+                       and making the buying and selling process easier.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

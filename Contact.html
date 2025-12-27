@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        body{
+            height:100px;
+            background: url("background4.img");
+            padding: 50px;
+            color: white;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial;
+        }
+
+        .container{
+            position: absolute;
+            height: 75%;
+            width: 70%;
+            background: lightskyblue;
+            border-radius: 30px;
+            margin-top: -25px;
+            padding: 40px;
+            margin-left: 130px;
+            border:3px solid black;
+            box-shadow:  0 10px 100px rgb(212, 108, 108);
+        }
+
+        header{
+            position: absolute;
+            width: 90%;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        .logo:hover{
+            color:black;
+        }
+
+        .navbar a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 35px;
+            margin-right: 20px;
+            transition:-5s;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover {
+    color: rgb(255, 0, 179);
+    border-color: rgb(251, 0, 255);
+}
+
+        .contact-section{
+            color: black;
+            margin-top: 80px;
+            padding: 20px;
+            text-align: center;  
+        }
+
+        .contact-section h2{
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+        .contact-section h2:hover{
+            transform: scale(1.05);
+            color:black;
+        }
+
+        .info{
+            font-size: 18px;
+            line-height: 35px;
+            display: inline-block;   
+            text-align: left;   
+            justify-content: center;    
+        }
+
+        .info a{
+            color: rgb(181, 72, 110);
+        }
+
+        .icons{
+            margin-top: 25px;
+            display: flex;
+            gap: 25px;
+            justify-content: center; 
+        }
+
+        .icon img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            padding: 5px;
+            border:1px solid aqua;
+            box-shadow:0 10px 30px rgb(94, 94, 235);
+        }
+        .icon img:hover{
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px aqua;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header>
+            <a href="" class="logo">Portfolio</a>
+            <nav class="navbar">
+                <a href="Home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <!-- CONTACT CONTENT -->
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+
+            <div class="info">
+                <p><b>Email:</b> <a href="mailto:vyshnavis111003@gmail.com">vyshnavis111003@gmail.com</a></p>
+                <p><b>Phone:</b> +91 8125314074</p>
+                <p><b>Location:</b> Hyderabad, India</p>
+            </div>
+
+            <div class="icons">
+                <a href="https://www.linkedin.com" class="icon">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+
+                <a href="https://github.com" class="icon">
+                    <img src="github.png" alt="GitHub">
+                </a>
+
+                <a href="https://www.naukri.com" class="icon">
+                    <img src="naukri.png" alt="Naukri">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

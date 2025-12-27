@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+            body {
+                background-color: blue;
+                font-family: Arial;
+            }
+            .box {
+                width: 320px;
+                height: 400px;
+                background-color: white;
+                padding: 20px;
+                margin: 40px auto;
+                border-radius: 10px;
+                margin-top: 80px;
+            }
+            h2 {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            input {
+                width: 100%;
+                padding: 10px;
+                margin-top: 10px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+            .forgot {
+                text-align: center;
+                font-size: 13px;
+                margin-top: 5px;
+                color: blue;
+            }
+            .login-btn {
+                width: 100%;
+                padding: 10px;
+                background-color: blue;
+                color: white;
+                border-radius: 5px;
+                margin-top: 15px; 
+                cursor: pointer;
+            }
+            .login-text {
+                text-align: center;
+                margin-top: 10px;
+                font-size: 14px;
+            }
+            .divider {
+                display: flex;
+                align-items: center;
+                margin: 20px 0;
+                color: #555;
+            }
+            .divider::before,
+            .divider::after {
+                content: "";
+                flex: 1;
+                height: 1px;
+                background: #ddd;
+                margin: 0 10px;
+            }
+            .facebook, .google {
+                width: 93%;
+                padding: 10px;
+                border-radius: 5px;
+                margin-top: 10px;
+                text-align: center;
+                display: block;
+                border: 1px solid black;
+                font-size: 14px;
+            }
+            .facebook {
+                background-color: #3b5998;
+                color: white;
+            }
+            .google {
+                background-color: white;
+                color: black;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <form action="">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <div class="forgot">
+                   <a href="https://www.facebook.com/recover/initiate">Forgot password?</a>
+                </div>
+                <button type="reset" class="login-btn">Login</button>
+            </form>
+            <div class="login-text">
+                Don't have an account? <a href="signin.html">Sign_up</a>
+            </div>
+            <div class="divider">Or</div>
+            <a class="facebook" href="https://www.facebook.com/login" target="_blank">
+                <img src="facebook.img" alt="" height="20px" width="20px" align="left">
+                Login with Facebook
+            </a>
+            <a class="google" href="https://account.google.com" target="_blank">
+                <img src="google.img" alt="" height="20px" width="20px" align="left">
+                Login with Google
+            </a>
+        </div>
+    </body>
+</html>
